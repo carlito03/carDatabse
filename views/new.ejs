@@ -1,0 +1,11 @@
+<% include partials/header.ejs %>
+<h1>Add a new car</h1>
+
+<form action="/cars" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="text" name="image" placeholder="image">
+    <button>SUBMIT!</button>
+    
+</form>
+
+<% include partials/footer.ejs %>

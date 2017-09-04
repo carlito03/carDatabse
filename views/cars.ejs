@@ -1,0 +1,16 @@
+<%include partials/header.ejs%>
+
+<h1>This is the Cars page</h1>
+
+<% cars.forEach(function(car){ %>
+    <div>
+        
+      <h4>  <%= car.name %> </h4>
+      
+      <img src="<%= car.image %>" />
+        
+    </div>
+    
+<% }); %>
+
+<%include partials/footer.ejs %>
