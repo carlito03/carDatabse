@@ -1,4 +1,6 @@
 <%include partials/header.ejs%>
+    
+
 <div class="container">
   <header class="jumbotron">
       <div class="container">
@@ -18,6 +20,9 @@
                    <div class="captiion">
                      <h4>  <%= car.name %> </h4>
                    </div>
+                   <p>
+                     <a href="/cars/<%= car._id %>" class="btn btn-primary">More Info</a>
+                   </p>
               </div>
           </div>
         
